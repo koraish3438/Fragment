@@ -25,7 +25,6 @@
         android:background="@color/white"
         android:elevation="12dp"
         app:itemIconSize="28dp"
-        app:itemGravity="center"
         app:itemIconTint="@color/bottom_nav_icon_color"
         app:itemTextColor="@color/bottom_nav_text_color"
         app:labelVisibilityMode="labeled"

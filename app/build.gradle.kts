@@ -52,8 +52,9 @@ dependencies {
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
 
-    // ViewModel + LiveData
+    // ViewModel
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.0")
+    // LiveData
     implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.8.0")
 
     // Glide
