@@ -3,25 +3,25 @@
     <item
         android:id="@+id/nav_home"
         android:icon="@drawable/baseline_home_24"
-        android:title="Home" />
+        android:title="@string/home" />
 
     <item
         android:id="@+id/nav_search"
         android:icon="@drawable/baseline_search_24"
-        android:title="Search" />
+        android:title="@string/search" />
 
     <item
         android:id="@+id/nav_notification"
         android:icon="@drawable/baseline_notifications_active_24"
-        android:title="Notification" />
+        android:title="@string/notification" />
 
     <item
         android:id="@+id/nav_scanner"
         android:icon="@drawable/outline_qr_code_scanner_24"
-        android:title="Scanner" />
+        android:title="@string/scanner" />
 
     <item
         android:id="@+id/nav_settings"
         android:icon="@drawable/outline_settings_24"
-        android:title="Settings" />
+        android:title="@string/settings" />
 </menu>
