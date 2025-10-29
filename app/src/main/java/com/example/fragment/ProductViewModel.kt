@@ -7,12 +7,13 @@ import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.launch
 
 class ProductViewModel: ViewModel() {
-    val products = MutableLiveData<List<ProductModel>>()
-    val productS: LiveData<List<ProductModel>> get() = products
+    val _products = MutableLiveData<List<ProductModel>>()
+    val products: LiveData<List<ProductModel>> get() = _products
 
     init {
         refreshProducts()
     }
+
 
     fun refreshProducts() {
         viewModelScope.launch {
@@ -23,7 +24,7 @@ class ProductViewModel: ViewModel() {
     private suspend fun fetchProducts() {
         try {
             val response = ApiClient.apiService.getProducts()
-            products.postValue(response)
+            _products.postValue(response)
         }
         catch (e: Exception) {
             e.printStackTrace()

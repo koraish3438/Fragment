@@ -39,6 +39,7 @@ class ScannerFragment : Fragment(R.layout.fragment_scanner) {
 
     override fun onDestroyView() {
         super.onDestroyView()
+        binding.barcodeScanner.pause()
         _binding = null
     }
 }

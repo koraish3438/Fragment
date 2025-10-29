@@ -9,4 +9,5 @@
     <color name="dark_grey">#CEC1C1</color>
     <color name="yellow">#FFFC33</color>
     <color name="light_gray">#F5F5F5</color>
+    <color name="notification_color">#474343</color>
 </resources>

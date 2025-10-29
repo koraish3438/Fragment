@@ -11,6 +11,6 @@ object ApiClient {
             .baseUrl(BASE_URL)
             .addConverterFactory(GsonConverterFactory.create())
             .build()
-            .create(apiService::class.java)
+            .create(ApiService::class.java)
     }
 }

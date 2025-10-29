@@ -9,13 +9,16 @@
     <!-- Search Field -->
 
     <!-- Search Button -->
+
     <EditText
         android:id="@+id/search_input"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="16dp"
         android:background="@drawable/search_field_bg"
         android:hint="Search here..."
+        android:textColor="@color/black"
+        android:textColorHint="@color/dark_grey"
         android:inputType="text"
         android:padding="12dp"
         app:layout_constraintEnd_toStartOf="@id/search_button"

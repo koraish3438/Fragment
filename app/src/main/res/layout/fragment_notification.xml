@@ -28,6 +28,7 @@
                 android:layout_height="wrap_content"
                 app:cardCornerRadius="12dp"
                 app:cardElevation="6dp"
+                android:backgroundTint="@color/notification_color"
                 android:layout_marginBottom="12dp">
 
                 <LinearLayout
@@ -42,14 +43,14 @@
                         android:text="Order Shipped"
                         android:textSize="16sp"
                         android:textStyle="bold"
-                        android:textColor="#333"/>
+                        android:textColor="@color/white"/>
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Your order #12345 has been shipped."
                         android:textSize="14sp"
-                        android:textColor="#666"
+                        android:textColor="@color/white"
                         android:layout_marginTop="4dp"/>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -60,6 +61,7 @@
                 android:layout_height="wrap_content"
                 app:cardCornerRadius="12dp"
                 app:cardElevation="6dp"
+                android:backgroundTint="@color/notification_color"
                 android:layout_marginBottom="12dp">
 
                 <LinearLayout
@@ -74,14 +76,14 @@
                         android:text="New Message"
                         android:textSize="16sp"
                         android:textStyle="bold"
-                        android:textColor="#333"/>
+                        android:textColor="@color/white"/>
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="You received a new message from John."
                         android:textSize="14sp"
-                        android:textColor="#666"
+                        android:textColor="@color/white"
                         android:layout_marginTop="4dp"/>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -92,6 +94,7 @@
                 android:layout_height="wrap_content"
                 app:cardCornerRadius="12dp"
                 app:cardElevation="6dp"
+                android:backgroundTint="@color/notification_color"
                 android:layout_marginBottom="12dp">
 
                 <LinearLayout
@@ -106,14 +109,14 @@
                         android:text="Offer Alert"
                         android:textSize="16sp"
                         android:textStyle="bold"
-                        android:textColor="#333"/>
+                        android:textColor="@color/white"/>
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="50% discount on your next purchase!"
                         android:textSize="14sp"
-                        android:textColor="#666"
+                        android:textColor="@color/white"
                         android:layout_marginTop="4dp"/>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -124,6 +127,7 @@
                 android:layout_height="wrap_content"
                 app:cardCornerRadius="12dp"
                 app:cardElevation="6dp"
+                android:backgroundTint="@color/notification_color"
                 android:layout_marginBottom="12dp">
 
                 <LinearLayout
@@ -138,14 +142,14 @@
                         android:text="App Update"
                         android:textSize="16sp"
                         android:textStyle="bold"
-                        android:textColor="#333"/>
+                        android:textColor="@color/white"/>
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Version 2.0 is now available."
                         android:textSize="14sp"
-                        android:textColor="#666"
+                        android:textColor="@color/white"
                         android:layout_marginTop="4dp"/>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
