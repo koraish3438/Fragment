@@ -36,6 +36,7 @@
                 android:layout_height="wrap_content"
                 app:cardCornerRadius="12dp"
                 app:cardElevation="6dp"
+                android:backgroundTint="@color/notification_color"
                 android:layout_marginBottom="12dp">
 
                 <LinearLayout
@@ -49,14 +50,14 @@
                         android:layout_height="wrap_content"
                         android:text="@string/edit_profile"
                         android:textSize="16sp"
-                        android:textColor="#333"/>
+                        android:textColor="@color/white"/>
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/change_your_name_email_etc"
                         android:textSize="14sp"
-                        android:textColor="#666"
+                        android:textColor="@color/white"
                         android:layout_marginTop="4dp"/>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -77,6 +78,7 @@
                 android:layout_height="wrap_content"
                 app:cardCornerRadius="12dp"
                 app:cardElevation="6dp"
+                android:backgroundTint="@color/notification_color"
                 android:layout_marginBottom="12dp">
 
                 <LinearLayout
@@ -90,14 +92,14 @@
                         android:layout_height="wrap_content"
                         android:text="@string/app_notifications"
                         android:textSize="16sp"
-                        android:textColor="#333"/>
+                        android:textColor="@color/white"/>
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/manage_notification_preferences"
                         android:textSize="14sp"
-                        android:textColor="#666"
+                        android:textColor="@color/white"
                         android:layout_marginTop="4dp"/>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -118,6 +120,7 @@
                 android:layout_height="wrap_content"
                 app:cardCornerRadius="12dp"
                 app:cardElevation="6dp"
+                android:backgroundTint="@color/notification_color"
                 android:layout_marginBottom="12dp">
 
                 <LinearLayout
@@ -131,14 +134,14 @@
                         android:layout_height="wrap_content"
                         android:text="@string/change_password"
                         android:textSize="16sp"
-                        android:textColor="#333"/>
+                        android:textColor="@color/white"/>
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/update_your_account_password"
                         android:textSize="14sp"
-                        android:textColor="#666"
+                        android:textColor="@color/white"
                         android:layout_marginTop="4dp"/>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
