@@ -51,7 +51,7 @@ app/ ├── data/ │   ├── model/ │   └── api/ ├── ui/ �
 
 Clone the project:
 
-git clone https://github.com/yourusername/yourrepo.git
+git clone https://github.com/koraish3438/Fragment
 
 Open in Android Studio → Sync Gradle → Run ✅
 
@@ -79,8 +79,7 @@ Dark/Light theme toggle
 MD Kajam-all Koraish
 Android Developer
 
-🔗 GitHub: https://github.com/yourusername
-🔗 LinkedIn: https://linkedin.com/in/yourprofile
+🔗 GitHub: https://github.com/koraish3438/Fragment 
 
 
 ---
